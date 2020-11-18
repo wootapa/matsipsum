@@ -10,10 +10,7 @@ PRON = ['jag', 'vi', 'jag', 'en kompis', 'docker', 'microsoft']
 KNJS = ['och', 'eller', 'utan', 'men', 'men utan', 'samt', 'dels', 'såväl som', 'precis som']
 KNJU = ['för att', 'medan då', 'fastän', 'därför att', 'innan', 'eftersom']
 
-antal = 5
-if len(sys.argv) > 1:
-    antal = int(sys.argv[1])
-
+antal = int(sys.argv[1])
 rappakalja = []
 i = 1
 while i <= antal:

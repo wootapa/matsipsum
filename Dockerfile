@@ -1,4 +1,4 @@
-FROM python:2.7-alpine
+FROM python:3.9.0-alpine
 COPY matsipsum.py /
 ENTRYPOINT [ "python", "./matsipsum.py" ]
-CMD []
+CMD ["5"]
